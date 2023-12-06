@@ -11,7 +11,7 @@
     background-image: url('../img/dadi.jpg');
     background-repeat: no-repeat, no-repeat;
     padding: 40px;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .container_page{
