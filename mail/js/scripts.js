@@ -14,18 +14,26 @@ const emailList = [
     "ginopeppino@gmail.com",
 ];
 
+let authorized = false;
+
 for (let i = 0; i < emailList.length; i++){
 
     if (correctemail == emailList[i]) { 
         alert ("la tua e-mail è valida")
         console.log("corretta");
+        authorized = true;
+        
     }
-    else {
-        alert ("la tua e-mail non è valida")
-        console.log("non è corretta");
-    }
+    // else {
+    //     alert ("la tua e-mail non è valida")
+    //     console.log("non è corretta");
+    // }
 }
 
+if (authorized == false) { 
+    alert ("la tua e-mail non è valida")
+    console.log("non è corretta");
+}
 
 
 
